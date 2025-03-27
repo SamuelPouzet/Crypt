@@ -1,0 +1,17 @@
+{
+    "name": "samuelpouzet/crypt",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "samuelpouzet\\Crypt\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Samuel POUZET"
+        }
+    ],
+    "require": {
+        "php": "^8.0.0"
+    }
+}
