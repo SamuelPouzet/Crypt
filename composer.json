@@ -1,17 +1,25 @@
 {
-    "name": "samuelpouzet/crypt",
+    "name": "samuelpouzet/text-utils",
+    "description": "Password crypter",
     "type": "library",
+    "license": [
+        "LGPL-3.0-or-later"
+    ],
     "autoload": {
         "psr-4": {
-            "samuelpouzet\\Crypt\\": "src/"
+            "SamuelPouzet\\Crypt\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Samuel POUZET"
+            "name": "Samuel POUZET",
+            "email": "samuel.pouzet@yahoo.fr"
         }
     ],
     "require": {
-        "php": "^8.0.0"
-    }
+        "php": "^8.0.0",
+        "ext-intl": "*",
+        "ext-iconv": "*"
+    },
+    "minimum-stability": "dev"
 }

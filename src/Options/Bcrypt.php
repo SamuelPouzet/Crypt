@@ -1,8 +1,8 @@
 <?php
 
-namespace samuelpouzet\Crypt\Options;
+namespace SamuelPouzet\Crypt\Options;
 
-use samuelpouzet\Crypt\Exception\InvalidArgumentException;
+use SamuelPouzet\Crypt\Exception\InvalidArgumentException;
 
 class Bcrypt extends Option
 {

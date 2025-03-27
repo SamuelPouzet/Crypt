@@ -1,6 +1,6 @@
 <?php
 
-namespace samuelpouzet\Crypt\Interface;
+namespace SamuelPouzet\Crypt\Interface;
 
 interface CryptInterface
 {

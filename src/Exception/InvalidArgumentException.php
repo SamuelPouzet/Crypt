@@ -1,6 +1,6 @@
 <?php
 
-namespace samuelpouzet\Crypt\Exception;
+namespace SamuelPouzet\Crypt\Exception;
 
 class InvalidArgumentException extends \InvalidArgumentException
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace samuelpouzet\Crypt;
+namespace SamuelPouzet\Crypt;
 
-use samuelpouzet\Crypt\Exception\InvalidArgumentException;
-use samuelpouzet\Crypt\Interface\CryptInterface;
-use samuelpouzet\Crypt\Options\Bcrypt as BcryptOptions;
-use samuelpouzet\Crypt\Options\Argon as ArgonOptions;
+use SamuelPouzet\Crypt\Exception\InvalidArgumentException;
+use SamuelPouzet\Crypt\Interface\CryptInterface;
+use SamuelPouzet\Crypt\Options\Bcrypt as BcryptOptions;
+use SamuelPouzet\Crypt\Options\Argon as ArgonOptions;
 use Traversable;
 
 class Crypt implements CryptInterface
