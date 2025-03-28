@@ -48,7 +48,7 @@ class Crypt implements CryptInterface
         return $this;
     }
 
-    protected function setOptions(array $options): static
+    protected function setOptions(iterable $options): static
     {
         if ($options instanceof Traversable) {
             $options = iterator_to_array($options);
